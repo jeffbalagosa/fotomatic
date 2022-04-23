@@ -79,6 +79,12 @@ header .mobile {
   display: none;
 }
 
+div#sign-up-section.banner {
+  background-image: url(/images/banner-landingpage.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 @media only screen and (max-width: 760px) {
   header .desktop {
     display: none;
