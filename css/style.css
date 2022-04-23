@@ -28,6 +28,13 @@ html {
   display: block;
 }
 
+div#sign-up-section.banner {
+  width: 100%;
+  background-image: url("../images/banner-landingpage.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 @media only screen and (max-width: 760px) {
   .main-content {
     top: 2.5625rem;
@@ -77,12 +84,6 @@ header .icon {
 
 header .mobile {
   display: none;
-}
-
-div#sign-up-section.banner {
-  background-image: url(/images/banner-landingpage.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 @media only screen and (max-width: 760px) {
