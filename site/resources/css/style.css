@@ -280,6 +280,21 @@ footer .copyright {
   #filters-section .extra {
     display: none;
   }
+
+  #quotes-section content {
+    padding: 1.875rem 0.625rem;
+  }
+
+  #quotes-section quote {
+    font-size: 1.5rem;
+    line-height: 1.4;
+  }
+
+  #quotes-section quote-citation {
+    display: block;
+    padding-top: 1rem;
+    margin: auto;
+  }
 }
 
 @media only screen and (max-width: 450px) {
@@ -369,20 +384,6 @@ footer .copyright {
 }
 
 @media only screen and (max-width: 760px) {
-  #quotes-section content {
-    padding: 1.875rem 0.625rem;
-  }
-
-  #quotes-section quote {
-    font-size: 1.5rem;
-    line-height: 1.4;
-  }
-
-  #quotes-section quote-citation {
-    display: block;
-    padding-top: 1rem;
-    margin: auto;
-  }
 }
 
 @media only screen and (min-width: 760px) {
