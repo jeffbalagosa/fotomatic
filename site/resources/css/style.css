@@ -158,6 +158,8 @@ header .mobile {
   color: #4a4a4a;
 }
 
+/* media quiries */
+
 @media only screen and (max-width: 760px) {
   .main-content {
     top: 2.5625rem;
@@ -365,23 +367,6 @@ header .mobile {
     padding-top: 1rem;
     margin: auto;
   }
-}
-
-/* Footer */
-
-footer {
-  background-color: #9b9b9b;
-  padding: 1.5rem 2rem;
-}
-
-footer .content {
-  color: white;
-  display: flex;
-  font-size: 0.75rem;
-}
-
-footer .copyright {
-  flex-grow: 1;
 }
 
 @media only screen and (min-width: 760px) {
