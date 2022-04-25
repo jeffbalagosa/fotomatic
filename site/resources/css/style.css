@@ -205,6 +205,29 @@ footer .copyright {
   padding: 0 1%;
 }
 
+/* Quotes Section */
+
+#quotes-section {
+  background-color: #f3f3f3;
+}
+
+#quotes-section content {
+  padding: 5rem 0;
+}
+
+#quotes-section quote {
+  padding-right: 1.875rem;
+  font-family: "Palatino", serif;
+  font-size: 1.875rem;
+  line-height: 1.1;
+  font-style: italic;
+  color: #4a4a4a;
+}
+
+#quotes-section quote-citation {
+  height: 1.875rem;
+}
+
 /* media queries */
 
 @media only screen and (max-width: 890px) {
@@ -352,35 +375,6 @@ footer .copyright {
   #sign-up-cta h2 {
     font-size: 2rem;
   }
-}
-
-@media only screen and (max-width: 760px) {
-}
-
-/* Quotes Section */
-
-#quotes-section {
-  background-color: #f3f3f3;
-}
-
-#quotes-section content {
-  padding: 5rem 0;
-}
-
-#quotes-section quote {
-  padding-right: 1.875rem;
-  font-family: "Palatino", serif;
-  font-size: 1.875rem;
-  line-height: 1.1;
-  font-style: italic;
-  color: #4a4a4a;
-}
-
-#quotes-section quote-citation {
-  height: 1.875rem;
-}
-
-@media only screen and (max-width: 760px) {
 }
 
 @media only screen and (min-width: 760px) {
