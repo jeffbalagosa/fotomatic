@@ -225,6 +225,8 @@ footer .copyright {
 /* Quotes Section */
 
 #quotes-section {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
   background-color: #f3f3f3;
 }
 
