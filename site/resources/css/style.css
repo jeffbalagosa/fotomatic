@@ -249,19 +249,6 @@ footer .copyright {
 
 /* media queries */
 
-@media only screen and (max-width: 890px) {
-  .feature h2 {
-    font-size: 1.125rem;
-    line-height: 1.3;
-    font-weight: normal;
-  }
-
-  .feature h3 {
-    font-size: 0.875rem;
-    line-height: 1.4;
-  }
-}
-
 @media only screen and (max-width: 760px) {
   .main-content {
     top: 2.5625rem;
@@ -331,6 +318,17 @@ footer .copyright {
   #features-section {
     flex-flow: column;
     padding: 0;
+  }
+
+  .feature h2 {
+    font-size: 1.125rem;
+    line-height: 1.3;
+    font-weight: normal;
+  }
+
+  .feature h3 {
+    font-size: 0.875rem;
+    line-height: 1.4;
   }
 
   .feature {
