@@ -369,6 +369,11 @@ footer .copyright {
     padding: 1.875rem 0.625rem;
   }
 
+  #quotes-section .center {
+    text-align: left;
+    padding: 1.5rem;
+  }
+
   #quotes-section quote {
     font-size: 1.5rem;
     line-height: 1.4;
