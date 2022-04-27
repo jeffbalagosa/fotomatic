@@ -317,7 +317,7 @@ footer .copyright {
   }
 
   #features-section {
-    flex-flow: column;
+    display: flex;
     padding: 0;
   }
 
@@ -335,6 +335,11 @@ footer .copyright {
   .feature {
     margin: 0;
     padding: 1.25rem 1rem 0 1rem;
+  }
+
+  .feature .content {
+    padding: 1rem;
+    text-align: left;
   }
 
   #filters-section {
@@ -392,6 +397,11 @@ footer .copyright {
 
   #sign-up-cta h2 {
     font-size: 2rem;
+  }
+
+  #features-section {
+    flex-flow: column;
+    padding: 0;
   }
 }
 
