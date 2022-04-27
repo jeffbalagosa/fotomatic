@@ -366,10 +366,6 @@ footer .copyright {
     padding: 0;
   }
 
-  #filters-section .extra {
-    display: none;
-  }
-
   #quotes-section content {
     padding: 1.875rem 0.625rem;
   }
@@ -402,6 +398,10 @@ footer .copyright {
   #features-section {
     flex-flow: column;
     padding: 0;
+  }
+
+  #filters-section .extra {
+    display: none;
   }
 }
 
