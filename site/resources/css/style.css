@@ -351,10 +351,9 @@ footer .copyright {
   }
 
   #filters-section .content h2 {
-    padding-bottom: 0.625rem;
-    font-size: 1.125rem;
+    font-size: 2rem;
     line-height: 1.3;
-    font-weight: normal;
+    font-weight: bold;
   }
 
   #filters-section .content h3 {
