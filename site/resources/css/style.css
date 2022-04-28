@@ -407,6 +407,11 @@ footer .copyright {
     padding: 0;
   }
 
+  #filters-section .content h2 {
+    font-size: 1.125rem;
+    line-height: 2.5;
+  }
+
   #filters-section .extra {
     display: none;
   }
