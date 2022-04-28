@@ -375,19 +375,17 @@ footer .copyright {
   }
 
   #quotes-section .center {
+    display: flex;
     text-align: left;
     padding: 1.5rem;
   }
 
   #quotes-section quote {
     font-size: 1.5rem;
-    line-height: 1.4;
   }
 
-  #quotes-section quote-citation {
-    display: block;
-    padding-top: 1rem;
-    margin: auto;
+  #quotes-section .quote-citation {
+    height: fit-content;
   }
 }
 
