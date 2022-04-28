@@ -415,6 +415,17 @@ footer .copyright {
   #filters-section .extra {
     display: none;
   }
+
+  #quotes-section .center {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    text-align: center;
+  }
+
+  #quotes-section .quote {
+    padding: 0 0 1.5rem 0;
+  }
 }
 
 @media only screen and (min-width: 760px) {
