@@ -366,6 +366,10 @@ footer .copyright {
     padding: 0;
   }
 
+  #quotes-section {
+    padding: 2.5rem;
+  }
+
   #quotes-section content {
     padding: 1.875rem 0.625rem;
   }
